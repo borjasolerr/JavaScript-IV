@@ -42,10 +42,10 @@ class Student extends Person {
       console.log(subject);
     });
   }
-  PRAssigment(subject) {
+  PRAssignment(subject) {
     console.log(`${this.name} has submitted a PR for ${subject}`);
   }
-  springChallenge(subject) {
+  sprintChallenge(subject) {
     console.log(`${this.name} has begun spring challenge on ${subject}`);
   }
 }
